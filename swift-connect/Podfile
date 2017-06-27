@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'swift-connect' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for swift-connect
+  pod 'Alamofire', '~> 4.3'
+  pod ‘IngenicoConnectKit’, ‘~> 1.0’
+  pod 'Socket.IO-Client-Swift', '~> 8.2.0'
+
+  target 'swift-connectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'swift-connectUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

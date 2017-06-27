@@ -1,0 +1,6 @@
+framework module IngenicoConnectKit {
+  umbrella header "IngenicoConnectKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

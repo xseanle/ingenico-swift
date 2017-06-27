@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (4.3.0)
+  - CryptoSwift (0.6.9)
+  - IngenicoConnectKit (1.0.0):
+    - Alamofire (~> 4.2)
+    - CryptoSwift (~> 0.6.7)
+  - Socket.IO-Client-Swift (8.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - IngenicoConnectKit (~> 1.0)
+  - Socket.IO-Client-Swift (~> 8.2.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  CryptoSwift: a22f6ba238e9ce4d26ee7bf45b9ed82e7122d4a0
+  IngenicoConnectKit: ec8dca7b6f7c4496c9396d3f4dffae4d4c20f38b
+  Socket.IO-Client-Swift: 900cf511777045c80d1ce1f11f71261e87765dd1
+
+PODFILE CHECKSUM: 13cdf66ea4732ae2852733c9021aaac46bb34e81
+
+COCOAPODS: 1.2.1
